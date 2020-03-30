@@ -5,7 +5,7 @@ def line(katz_deli)
   else
     position = 1
     katz_deli.each do |person|
-      other_deli << "#{position} #{person}"
+      other_deli << "#{position}. #{person}"
       position += 1 
   end
     puts "The line is currently: #{other_deli.join(" ")}"
