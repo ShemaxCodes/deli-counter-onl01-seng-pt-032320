@@ -20,4 +20,4 @@ def now_serving
   end
 end
   
-
+end
