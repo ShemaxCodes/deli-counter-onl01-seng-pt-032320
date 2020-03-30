@@ -3,7 +3,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     position = 1
-    
+    katz_deli.each do |person|
+      puts "The line is currently: #{postion} #{person}"
   end
 end
 
