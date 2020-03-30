@@ -5,7 +5,7 @@ def line(katz_deli)
   else
     position = 1
     katz_deli.each do |person|
-      line_positions << "#{position}. #{person}"
+      other_deli << "#{position}. #{person}"
       puts "The line is currently: #{position} #{person}"
     postion += 1 
   end
