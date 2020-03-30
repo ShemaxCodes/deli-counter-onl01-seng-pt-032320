@@ -8,7 +8,7 @@ def line(katz_deli)
       other_deli << "#{position}. #{person}"
       position += 1 
   end
-    puts "The line is currently: #{other_deli.join(" ")}"
+    puts "The line is currently: #{other_deli.join("")}"
 end
 
 def take_a_number(katz_deli, name)
