@@ -8,7 +8,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  puts katz_deli << "Welcome, #{name}. You are number 1 in line."
+  puts katz_deli << "#{name}" "Welcome, #{name}. You are number 1 in line."
 end  
   
   
