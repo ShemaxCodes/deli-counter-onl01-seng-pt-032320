@@ -6,9 +6,9 @@ def line(katz_deli)
     position = 1
     katz_deli.each do |person|
       other_deli << "#{position} #{person}"
-      puts "The line is currently: #{position}. #{person}"
+      position += 1 
   end
-  position += 1 
+    puts "The line is currently: #{position}. #{person}"
 end
 
 def take_a_number(katz_deli, name)
