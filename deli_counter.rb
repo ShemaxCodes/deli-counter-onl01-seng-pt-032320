@@ -5,6 +5,7 @@ def line(katz_deli)
     position = 1
     katz_deli.each do |person|
       puts "The line is currently: #{postion} #{person}"
+    postion += 1 
   end
 end
 
