@@ -4,6 +4,8 @@ def line(katz_deli)
   end
 end
 
+def line(other_deli)
+
 def take_a_number(katz_deli, name)
   puts katz_deli << "#{name}"
 end  
