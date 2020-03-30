@@ -7,7 +7,7 @@ def line(katz_deli)
     katz_deli.each do |person|
       other_deli << "#{position} #{person}"
       puts "The line is currently: #{position}. #{person}"
-    postion += 1 
+    position += 1 
   end
 end
 
