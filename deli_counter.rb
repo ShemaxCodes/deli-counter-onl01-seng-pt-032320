@@ -5,6 +5,8 @@ def line(katz_deli)
 end
 
 def line(other_deli)
+  if other_deli.size > 0 
+    puts "The line is currently #{other_deli}"
 end
 
 def take_a_number(katz_deli, name)
